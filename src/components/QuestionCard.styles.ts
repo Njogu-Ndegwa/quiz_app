@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
 
-max-widht: 1100px;
+max-width: 1100px;
 background: #ebfeff;
 border-radius: 10px;
 border: 2px solid #0085a3;
@@ -30,9 +30,9 @@ transition: all 0.3s ease;
 button {
     cursor: pointer;
     user-select: none;
-    font-size: 0.8rem
-    width: 100%
-    height: 40px
+    font-size: 0.8rem;
+    width: 100%;
+    height: 40px;
     margin: 5px 0;
     background: ${({ correct, userClicked }) =>
         correct ? 'linear-gradient(90deg, #56ffa4, #59bc86)'

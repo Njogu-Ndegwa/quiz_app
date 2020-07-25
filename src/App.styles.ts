@@ -1,5 +1,4 @@
 import styled, {createGlobalStyle} from 'styled-components';
-//@ts-ignore
 import BGImage from './images/nattu-adnan.jpg';
 
 export const GlobalStyle = createGlobalStyle`
@@ -17,11 +16,11 @@ body {
 }
 
 * {
-    body: border-box;
+    box-sizing: border-box;
     font-family: 'Catamaran', sans-serif
 }
 
-`
+`;
 
 export const Wrapper = styled.div `
 display: flex;
@@ -45,10 +44,6 @@ h1 {
     background-size: 100%;
     background-clip: text;
     filter: drop-shadow(2px 2px #0085a3);
-    --webkit-background-clip: text;
-    --webkit-text-fill-color: transparent;
-    --moz-background-clip: text;
-    --moz-text-fill-color: transparent;
     font-size: 70px;
     font-weight: 400;
     text-align: center;
